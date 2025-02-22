@@ -48,7 +48,7 @@ This section will contain key takeaways and concepts I learn throughout the cour
 Feel free to reach out if you have any questions or want to discuss anything related to the course or projects!
 
 - Email: dragunovartur61@gmail.com
-- LinkedIn: [[Artur Dragunov](https://www.linkedin.com/in/arturdragunov/)]
+- LinkedIn: [Artur Dragunov](https://www.linkedin.com/in/arturdragunov/)
 
 ## Acknowledgments
 
