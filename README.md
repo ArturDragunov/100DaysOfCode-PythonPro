@@ -27,6 +27,7 @@ The course is divided into 100 days, with each day focusing on a specific topic 
 ## Projects
 
 Each project will have its own directory with the following structure:
+```
 project-name/
 │
 ├── code/
@@ -34,6 +35,7 @@ project-name/
 │   ├── ...
 │
 ├── README.md
+```
 
 ## Progress
 
