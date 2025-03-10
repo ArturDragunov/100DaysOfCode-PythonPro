@@ -1,2 +1,4 @@
 PrettyTable
 colorgram.py
+pandas
+pyperclip

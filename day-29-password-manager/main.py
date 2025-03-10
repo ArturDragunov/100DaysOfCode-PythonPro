@@ -17,10 +17,10 @@ def generate_password():
 
     password_list = password_letters + password_symbols + password_numbers
     shuffle(password_list)
-
-    password = "".join(password_list)
+ 
+    password = "".join(password_list) # join all elements in a list by a "" separator
     password_entry.insert(0, password)
-    pyperclip.copy(password)
+    pyperclip.copy(password) # copies password text to user's clipboard
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 def save():
@@ -66,7 +66,7 @@ website_entry.grid(row=1, column=1, columnspan=2)
 website_entry.focus()
 email_entry = Entry(width=35)
 email_entry.grid(row=2, column=1, columnspan=2)
-email_entry.insert(0, "lenargasimov@gmail.com")
+email_entry.insert(0, "artur.dragunov.career@gmail.com")
 password_entry = Entry(width=21)
 password_entry.grid(row=3, column=1)
 
