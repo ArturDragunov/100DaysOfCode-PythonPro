@@ -1,1 +1,0 @@
-preparation for day 30
