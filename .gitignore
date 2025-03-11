@@ -1,3 +1,6 @@
 *venv
 *study-notes.py
 *.pyc
+.env
+*.ipynb
+vscode-extensions.txt
