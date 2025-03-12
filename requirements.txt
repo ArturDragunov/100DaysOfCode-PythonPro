@@ -2,3 +2,5 @@ PrettyTable
 colorgram.py
 pandas
 pyperclip
+requests
+python-dotenv
