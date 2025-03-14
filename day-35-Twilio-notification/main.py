@@ -15,6 +15,7 @@ MY_LNG = 14.411180
 account_sid = os.getenv('TWILIO_SID')
 auth_token = os.getenv('TWILIO_TOKEN')
 my_phone_number = os.getenv('PHONE')
+twilio_number = os.getenv('VIRTUAL_TWILIO_NUMBER')
 api_key = os.getenv('OPEN_WEATHER')
 OWM_Endpoint = 'https://api.openweathermap.org/data/2.5/forecast?'
 parameters = {'lat':MY_LAT, 
@@ -40,7 +41,7 @@ def take_umbrella(weather_data:json)->bool:
 if take_umbrella(weather_data):
 
   client = Client(account_sid, auth_token)
-  message = client.messages.create(from_='+12694445788',
+  message = client.messages.create(from_=twilio_number,
                                   body="It's going to rain today! Remember to bring an ☂️",
                                   to=my_phone_number)
   print(message.status)
