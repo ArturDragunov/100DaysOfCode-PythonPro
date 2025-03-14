@@ -15,7 +15,7 @@ MY_LNG = 14.411180
 account_sid = os.getenv('TWILIO_SID')
 auth_token = os.getenv('TWILIO_TOKEN')
 my_phone_number = os.getenv('PHONE')
-api_key = 'fbbcd4c15c24e2d256f9508f36ac1d25'
+api_key = os.getenv('OPEN_WEATHER')
 OWM_Endpoint = 'https://api.openweathermap.org/data/2.5/forecast?'
 parameters = {'lat':MY_LAT, 
               'lon':MY_LNG, 
