@@ -3,15 +3,16 @@
 ################
 #%% Libraries and static data
 import requests
-import time
-from datetime import datetime
-MY_LAT = 50.233608
-MY_LNG = 14.411180
 import smtplib
+import time
 import os
 from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
+# Load environment variables from .env file
+from datetime import datetime
+MY_LAT = 50.233608
+MY_LNG = 14.411180
 #%% first API
 # response = requests.get(url="http://api.open-notify.org/iss-now.json")
 # print(response.status_code) # 200
