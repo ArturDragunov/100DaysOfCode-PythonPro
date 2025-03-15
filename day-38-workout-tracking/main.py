@@ -30,8 +30,8 @@ print(response.json())
 # %%
 today_date = datetime.now().strftime("%d/%m/%Y")
 now_time = datetime.now().strftime("%X")
-sheety_url = os.getenv('SHEETY_URL')
-headers = {'Authorization': f'Bearer {os.getenv('BEARER_TOKEN')}'} # Bearer Token for secure authentication 
+sheety_url = os.getenv('SHEETY_URL_DAY_38')
+headers = {'Authorization': f'Bearer {os.getenv('SHEETY_BEARER_TOKEN')}'} # Bearer Token for secure authentication 
 for exercise in response.json()["exercises"]:  # multiple exercises
     sheet_inputs = {
         "workout": {
